@@ -1,8 +1,0 @@
-// Clearfix: sirve para "arreglar" contenedores cuando
-// los elementos de adentro flotan (float) y el padre se achica
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
