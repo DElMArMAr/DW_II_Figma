@@ -1,0 +1,253 @@
+// ======================================
+// SECCION 1: HERO
+// ======================================
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    background-color: $fondo-gris;
+    padding: 60px 24px;
+}
+
+.hero-texto {
+    flex: 1;
+}
+
+.hero-texto p {
+    color: $texto-gris;
+    margin-bottom: 24px;
+}
+
+.hero-imagen {
+    flex: 1;
+}
+
+// ======================================
+// SECCION 2: LOGOS DE CLIENTES
+// ======================================
+
+.clientes {
+    text-align: center;
+}
+
+.lista-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    opacity: 0.7;
+}
+
+// todos los logos miden lo mismo de alto, asi quedan alineados
+.lista-logos img {
+    height: 32px;
+    width: auto;
+}
+
+.lista-logos-chica img {
+    height: 24px;
+}
+
+// ======================================
+// SECCION 3: TARJETAS (para quien es Nexcent)
+// ======================================
+
+.tarjetas {
+    display: flex;
+    gap: 24px;
+    max-width: $ancho-maximo;
+    margin: 40px auto 0 auto;
+    padding: 0 24px;
+}
+
+.tarjeta {
+    flex: 1;
+    border: 1px solid $borde;
+    border-radius: $bordes-redondeados;
+    padding: 28px;
+}
+
+.icono {
+    width: 44px;
+    height: 44px;
+    background-color: $verde-clarito;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono svg {
+    width: 22px;
+    height: 22px;
+    color: $verde;
+}
+
+.tarjeta p {
+    color: $texto-gris;
+    font-size: 14px;
+}
+
+// ======================================
+// FILAS CON IMAGEN + TEXTO (se repite 2 veces)
+// ======================================
+
+.fila {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+// esta clase da vuelta el orden para que la imagen quede a la derecha
+.fila-imagen-derecha {
+    flex-direction: row-reverse;
+}
+
+.fila-imagen {
+    flex: 1;
+    background-color: $fondo-gris;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.fila-texto {
+    flex: 1;
+}
+
+.fila-texto p {
+    color: $texto-gris;
+    margin-bottom: 20px;
+}
+
+// ======================================
+// SECCION DE NUMEROS
+// ======================================
+
+.numeros {
+    background-color: $fondo-gris;
+    text-align: center;
+}
+
+.lista-numeros {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.lista-numeros .numero {
+    display: block;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.lista-numeros .etiqueta {
+    color: $texto-gris;
+    font-size: 14px;
+}
+
+// ======================================
+// SECCION TESTIMONIO
+// ======================================
+
+.testimonio {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    background-color: $fondo-gris;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.testimonio-imagen {
+    flex: 1;
+}
+
+.testimonio-imagen img {
+    border-radius: $bordes-redondeados;
+}
+
+.testimonio-texto {
+    flex: 1.2;
+}
+
+.testimonio-texto p {
+    color: $texto-gris;
+    font-size: 15px;
+}
+
+.testimonio-nombre {
+    font-weight: 700;
+    color: $texto-oscuro !important;
+    margin-top: 20px;
+}
+
+.testimonio-cargo {
+    margin-bottom: 16px;
+}
+
+.testimonio-texto .lista-logos {
+    justify-content: flex-start;
+    margin-bottom: 16px;
+}
+
+// ======================================
+// SECCION BLOG
+// ======================================
+
+.blog {
+    text-align: center;
+}
+
+.tarjetas-blog {
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.tarjeta-blog {
+    flex: 1;
+    border: 1px solid $borde;
+    border-radius: $bordes-redondeados;
+    padding: 16px;
+}
+
+.tarjeta-blog-imagen {
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tarjeta-blog-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+// ======================================
+// SECCION CTA FINAL
+// ======================================
+
+.cta {
+    background-color: $fondo-gris;
+    text-align: center;
+}
+
+.cta h2 {
+    max-width: 600px;
+    margin: 0 auto 24px auto;
+}

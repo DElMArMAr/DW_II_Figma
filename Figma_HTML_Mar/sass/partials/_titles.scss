@@ -1,0 +1,36 @@
+// Tamanos de los titulos (h1, h2, h3) segun donde aparecen
+
+.hero-texto h1 {
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+
+.hero-texto span {
+    display: block;
+}
+
+// los h2 que son titulo de seccion, van centrados
+.clientes h2,
+.planes h2,
+.numeros h2,
+.blog h2,
+.cta h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+// los h2 que van dentro de una fila con imagen, van a la izquierda
+.fila-texto h2 {
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.tarjeta h3 {
+    font-size: 18px;
+    margin: 14px 0 8px 0;
+}
+
+.tarjeta-blog h3 {
+    font-size: 16px;
+    margin: 16px 0 12px 0;
+}
