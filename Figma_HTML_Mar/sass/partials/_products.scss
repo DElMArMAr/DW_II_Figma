@@ -27,21 +27,6 @@
 }
 
 
-// SECCION 2: LOGOS DE CLIENTES
-
-
-.clientes {
-    text-align: center;
-}
-
-.lista-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-    opacity: 0.7;
-}
 
 // todos los logos miden lo mismo de alto, asi quedan alineados
 .lista-logos img {
@@ -54,7 +39,7 @@
 }
 
 
-// SECCION 3: TARJETAS (para quien es Nexcent)
+// SECCION 3: TARJETAS 
 
 
 .tarjetas {
@@ -93,30 +78,6 @@
     font-size: 14px;
 }
 
-
-// FILAS CON IMAGEN + TEXTO (se repite 2 veces)
-
-
-.fila {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    max-width: $ancho-maximo;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-
-// esta clase da vuelta el orden para que la imagen quede a la derecha
-.fila-imagen-derecha {
-    flex-direction: row-reverse;
-}
-
-.fila-imagen {
-    flex: 1;
-    background-color: $fondo-gris;
-    border-radius: 16px;
-    padding: 30px;
-}
 
 .fila-texto {
     flex: 1;
