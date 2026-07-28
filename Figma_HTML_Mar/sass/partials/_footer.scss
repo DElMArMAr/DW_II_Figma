@@ -1,0 +1,70 @@
+// El footer de abajo de todo
+
+.footer {
+    display: flex;
+    gap: 40px;
+    background-color: $footer-fondo;
+    color: $footer-texto;
+    padding: 50px 24px;
+}
+
+.footer-columna {
+    flex: 1;
+}
+
+.logo-footer {
+    color: $blanco;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.footer h3 {
+    color: $blanco;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-columna a {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: $footer-texto;
+}
+
+.footer-columna a:hover {
+    color: $blanco;
+}
+
+.redes {
+    display: flex;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+// el formulario para suscribirse por mail
+.formulario {
+    display: flex;
+    margin-top: 10px;
+}
+
+.formulario input {
+    flex: 1;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 6px 0 0 6px;
+}
+
+.formulario button {
+    background-color: $verde;
+    color: $blanco;
+    border: none;
+    padding: 0 16px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}

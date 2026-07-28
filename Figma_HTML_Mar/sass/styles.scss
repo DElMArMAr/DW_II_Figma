@@ -1,0 +1,13 @@
+// Este es el archivo principal.
+// Aca no escribimos estilos directamente, solo "importamos"
+// los demas archivos en el orden en que los necesitamos.
+
+@import "settings";           // colores y variables (va primero, los demas lo usan)
+@import "partials/clearfix";
+@import "partials/general";   // reset + estilos base
+@import "partials/header";
+@import "partials/navegation";
+@import "partials/titles";
+@import "partials/products";  // el contenido de cada seccion
+@import "partials/footer";
+@import "partials/responsive"; // este va al final para que gane en pantallas chicas

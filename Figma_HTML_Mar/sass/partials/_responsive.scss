@@ -1,0 +1,41 @@
+// Ajustes para que se vea bien en pantallas chicas (celular / tablet)
+
+@media (max-width: 900px) {
+
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .fila {
+        flex-direction: column;
+    }
+
+    .fila-imagen-derecha {
+        flex-direction: column;
+    }
+
+    .testimonio {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .tarjetas-blog {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .lista-numeros {
+        gap: 30px;
+    }
+}
