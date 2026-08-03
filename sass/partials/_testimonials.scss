@@ -1,0 +1,72 @@
+// TESTIMONIALS
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    h2 {
+        display: none;
+    }
+}
+
+.testimonials-wrap {
+    max-width: 750px;
+    width: 100%;
+}
+
+.testimonials-content {
+    margin-bottom: 32px;
+
+    p {
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    p:nth-child(2) {
+        color: $verde;
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    p:nth-child(3) {
+        color: $texto-boton-gris;
+        font-weight: 400;
+    }
+}
+
+.testimonials-clients {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    > div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    a {
+        color: $verde;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+}
+
+// Nota: esta clase no se usa en el HTML actual, se deja por si se retoma
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

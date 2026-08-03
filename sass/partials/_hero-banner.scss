@@ -1,0 +1,31 @@
+// HERO BANNER
+
+.hero-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.hero-content {
+    span {
+        color: $verde;
+        display: block;
+    }
+
+    h1 {
+        margin-bottom: 16px;
+        font-weight: 600;
+    }
+
+    p {
+        margin-bottom: 32px;
+    }
+}
+
+#dot-slider {
+    width: 46px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
