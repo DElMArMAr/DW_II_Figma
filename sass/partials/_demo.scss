@@ -1,0 +1,25 @@
+// DEMO
+
+.demo {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    h5 {
+        font-weight: 600;
+        width: 100%;
+        max-width: 750px;
+        margin: 0 auto 32px;
+    }
+}
+
+.demo-btn {
+    display: flex;
+    justify-content: center;
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,44 @@
+// HEADER
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header {
+    display: flex;
+    gap: 50px;
+
+    a {
+        font-size: 1rem;
+        color: $texto-azulado;
+    }
+}
+
+.btn-header {
+    display: flex;
+    gap: 14px;
+
+    a {
+        font-size: 0.875rem;
+        padding: 10px 20px;
+        border-radius: 6px;
+    }
+
+    a:first-child {
+        background-color: $fondo-plata;
+        color: $verde;
+    }
+
+    a:nth-child(2) {
+        background-color: $verde;
+        color: $blanco;
+    }
+}
+
+#menu-mobile {
+    display: none;
+}

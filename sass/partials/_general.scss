@@ -1,0 +1,68 @@
+// ESTILOS GENERALES EN ETIQUETAS
+
+body {
+    font-family: $fuente;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: $texto-oscuro;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color: $texto-oscuro;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: $texto-oscuro;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: $texto-gris;
+}
+
+h5 {
+    font-size: 4rem;
+    color: $texto-negro;
+}
+
+p {
+    font-size: 1rem;
+    color: $texto-gris;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// HELPERS
+.container {
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+// BUTTON
+.btn {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background-color: $verde;
+    color: $blanco;
+}
+
+.silver-bg {
+    background-color: $fondo-plata;
+}
+
+.black-bg {
+    background-color: $fondo-negro;
+}
